@@ -6,7 +6,7 @@ $(function() {
     
     
     
-    /*fixed heder*/
+    
     checkScroll(scrollOffset);
     
     $(window).on("scroll", function() {
@@ -27,7 +27,7 @@ $(function() {
     
     }
     
-    /*smooth scrool*/
+    
     $("[data-scroll]").on("click", function(event){
         event.preventDefault();
         
@@ -46,7 +46,7 @@ $(function() {
         
     });
     
-    /* menu  nav toggle*/
+   
     
     $("#nav_toggle").on("click", function(event) {
         
@@ -58,7 +58,7 @@ $(function() {
     });
     
     
-    /*collaps*/
+    
     
     $("[data-collapse]").on("click", function(event) {
         event.preventDefault();
@@ -69,7 +69,7 @@ $(function() {
         $(blockId).slideToggle();
     });
     
-    /*slider*/
+    
     $("[data-slider]").slick({
         infinite: true,
         fade: false,
